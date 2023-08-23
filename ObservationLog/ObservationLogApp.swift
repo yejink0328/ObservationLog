@@ -11,7 +11,7 @@ import SwiftUI
 struct ObservationLogApp: App {
     var body: some Scene {
         WindowGroup {
-            MainCalendarView()
+            MainCalendarView(nowDate: Date())
         }
     }
 }

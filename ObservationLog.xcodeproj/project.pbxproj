@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		32F341742A938068008A4F90 /* ObservationLogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F341732A938068008A4F90 /* ObservationLogApp.swift */; };
-		32F341762A938068008A4F90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F341752A938068008A4F90 /* ContentView.swift */; };
+		32F341762A938068008A4F90 /* MainCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F341752A938068008A4F90 /* MainCalendarView.swift */; };
 		32F341782A938069008A4F90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32F341772A938069008A4F90 /* Assets.xcassets */; };
 		32F3417B2A938069008A4F90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32F3417A2A938069008A4F90 /* Preview Assets.xcassets */; };
 		32F341852A938069008A4F90 /* ObservationLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F341842A938069008A4F90 /* ObservationLogTests.swift */; };
@@ -41,7 +41,7 @@
 /* Begin PBXFileReference section */
 		32F341702A938068008A4F90 /* ObservationLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObservationLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32F341732A938068008A4F90 /* ObservationLogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationLogApp.swift; sourceTree = "<group>"; };
-		32F341752A938068008A4F90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		32F341752A938068008A4F90 /* MainCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCalendarView.swift; sourceTree = "<group>"; };
 		32F341772A938069008A4F90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32F3417A2A938069008A4F90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		32F341802A938069008A4F90 /* ObservationLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObservationLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,7 +140,7 @@
 		32F3419D2A938506008A4F90 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				32F341752A938068008A4F90 /* ContentView.swift */,
+				32F341752A938068008A4F90 /* MainCalendarView.swift */,
 				32F3419E2A938562008A4F90 /* ReportView.swift */,
 				32F341A02A93878F008A4F90 /* MemoListView.swift */,
 				32F341A22A93879C008A4F90 /* MemoView.swift */,
@@ -289,7 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32F341A32A93879C008A4F90 /* MemoView.swift in Sources */,
-				32F341762A938068008A4F90 /* ContentView.swift in Sources */,
+				32F341762A938068008A4F90 /* MainCalendarView.swift in Sources */,
 				32F341A62A938F65008A4F90 /* Log.swift in Sources */,
 				32F341742A938068008A4F90 /* ObservationLogApp.swift in Sources */,
 				32F341A12A93878F008A4F90 /* MemoListView.swift in Sources */,
