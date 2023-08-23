@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ReportView: View {
     var body: some View {
-        VStack {
+        VStack (spacing: 10){
             Text("비어있는 기록 1")
                 .font(.title)
             Text("2023년 7월 18일")
